@@ -100,6 +100,61 @@ form button:focus {
     border-radius: 4px;
 }
 
+/* ---- CARDS ---- */
+.card {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.20);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-header h1 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    transition: none ;
+}
+
+.card img:hover {
+    width: 60px ;
+    height: 60px ;
+    transform: none ;
+}
+
+.card-body {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.card-footer {
+    font-size: 0.85rem;
+    opacity: 0.85;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
 /* ---- FORMS ---- */
 form {
     background: white;
