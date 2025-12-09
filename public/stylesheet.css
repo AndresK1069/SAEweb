@@ -133,7 +133,7 @@ form button:focus {
 .card img {
     width: 60px;
     height: 60px;
-    border-radius: 8px;
+    border-radius: 50px;
     transition: none ;
 }
 
