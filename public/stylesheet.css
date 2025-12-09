@@ -50,7 +50,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a:focus {
-    color: #007acc; /* darker blue for accessibility */
+    color: #007acc;
 }
 
 /* ---- MAIN CONTENT ---- */
@@ -85,7 +85,7 @@ main {
 /* ---- BUTTONS ---- */
 form button {
     padding: 10px 20px;
-    background-color: #005f99; /* darker blue for contrast */
+    background-color: #005f99;
     color: white;
     border: none;
     border-radius: 6px;
@@ -96,7 +96,7 @@ form button {
 
 form button:hover,
 form button:focus {
-    background-color: #003f66; /* darker hover/focus */
+    background-color: #003f66;
     border-radius: 4px;
 }
 
@@ -218,7 +218,7 @@ form fieldset div {
 form a,
 form a:visited,
 a, a:visited {
-    color: #005f99; /* accessible dark blue */
+    color: #005f99;
     text-decoration: none;
     font-size: 14px;
     transition: 0.3s;
@@ -228,7 +228,7 @@ form a:hover,
 form a:focus,
 a:hover,
 a:focus {
-    color: #003f66; /* darker hover/focus */
+    color: #003f66;
     text-decoration: underline;
 }
 
@@ -259,7 +259,7 @@ footer::before {
     height: 20px;
     width: 120px;
     margin: 0 auto;
-    background: #005f99; /* accessible dark blue */
+    background: #005f99;
     border-radius: 12px 12px 0 0;
     text-align: center;
     line-height: 20px;
@@ -312,7 +312,7 @@ table tr:nth-child(even) {
 }
 
 table tr:hover {
-    background-color: #99ccff; /* accessible table hover */
+    background-color: #99ccff;
     transition: 0.2s;
 }
 
